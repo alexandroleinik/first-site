@@ -1,0 +1,1076 @@
+/*Header */
+
+	header{
+
+		background: url(../img/tlo-1280px.png) no-repeat;
+	    -moz-background-size: 100%; /* Firefox 3.6+ */
+	    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+	    -o-background-size: 100%; /* Opera 9.6+ */
+	    background-size: 100%; /* Современные браузеры */
+	    padding: 20px 90px 00px 45px;
+	    height: 100%;
+	   
+	}
+	header a img{
+	    width: 108px;
+	    height: 65px;
+	}
+	.menu-logo{
+		display: none;
+	}
+	.nav{
+		float: right;
+		padding-top: 30px;	
+		-webkit-transition: left 0.5s ease-out 0.2s;
+		-moz-transition: left 0.5s ease-out 0.2s;
+		-o-transition: left 0.5s ease-out 0.2s;
+		transition: left 0.5s ease-out 0.2s;
+	}
+	.nav ul li{
+		display: inline; 
+	    margin-right: 5px;
+	    color: #7B7B7B; 
+	}
+	.nav ul li:not(:first-child):before{
+		content: "•" ;
+		margin-right: 12px;
+	} 
+
+	.nav ul li a{
+		text-decoration: none;
+		color: #7B7B7B;
+		font-family: Avenir Medium;
+		font-size: 15px;
+		margin: 12px;
+	}
+	.nav ul li a:hover{
+		text-decoration: none;
+		color: #fff;
+	}
+	.icon-menu{
+
+		display: none;
+		height: 30px;
+		width: 30px;
+		float: right;
+		cursor: pointer;
+		margin-right: -60px;
+		margin-top: 20px;		
+	}
+	.divide{
+		display: block;
+		height: 3px;
+		margin:4px 0;
+		background: #7B7B7B
+	}
+
+		
+	header h2{
+		margin-top: 128px;
+		text-align: center;
+		color:#F4C51E;
+		font-size: 2.6em;
+		line-height: 1.5;
+	}
+	h3.list{	
+		padding-left: 40px;
+		margin-top: 95px;
+		color: #fff;
+		font-family: Avenir Light;
+	}
+	ul.list li{
+			
+		line-height: 1.8	;
+
+	}
+	ul.list{
+		list-style-image: url(../img/znacznik1.png);
+		font-size: 25px;
+		padding-left: 55px;
+		margin-bottom: 45px;	
+		color: #fff;
+		font-family: Avenir Light;
+	}
+	header img{
+		height: 50px;
+		width: 30px;
+	}
+	header p#mouse{
+		text-align: center;
+		margin: 0;
+	}
+/*Section program */
+	section#program{
+		background: #1D2117;
+		color: #fff;
+	}
+	section#program .row{ 
+		margin-top: 100px;
+		margin-left: 35px;
+	}
+	section#program h3{
+		margin-bottom: 55px;
+		font-family: Avenir Black;
+		line-height: 1.7;
+	}
+	section#program h3:before{
+		content: url(../img/1.png);
+		padding-right: 13px;
+	}
+	section#program p{
+		margin-bottom: 120px;
+		font-size: 18px;
+		font-family: Avenir Light;
+		line-height: 1.9	;
+	}
+	section#program button{
+		width: 150px;
+		height: 40px;
+		border: 2px solid #fff; 
+		margin-bottom: 40px;
+		font-family: Avenir Light;
+		background:#1D2117 ;
+	}
+	section#program img{
+		height: 440px;
+		width: 320px;
+	}
+/*Section Mailing */
+	section#mailing{
+		background: #353535;
+		color: #fff;
+	}
+	section#mailing .row{ 
+		margin-top: 115px;
+	}
+	section#mailing h3{
+		margin-bottom: 55px;
+		font-family: Avenir Black;
+		line-height: 1.7;
+	}
+	section#mailing h3:before{
+		content: url(../img/1.png);
+		padding-right: 13px;
+	}
+	section#mailing p{
+		margin-bottom: 150px;
+		font-size: 18px;
+		font-family: Avenir Light;
+		line-height: 1.9;
+	}
+	section#mailing img{
+		position: absolute;
+		left: -80px;
+		top: -100px;
+		width: 655px;
+		height: 495px;
+	}
+	section#mailing button{
+		background: #353535;	
+		width: 150px;
+		height: 40px;
+		border: 1px solid #fff; 
+		margin-bottom: 40px;
+		font-family: Avenir Light;
+	}
+/*Section Wspolpraca */
+	section#wspolpraca{
+		background: #1D2117;
+		color: #fff;
+	}
+	section#wspolpraca .row{ 
+		margin-top: 100px;
+		margin-left: 35px;
+	}
+	section#wspolpraca h3{
+		margin-bottom: 58px;
+		font-family: Avenir Black;
+		line-height: 1.7;
+	}
+	section#wspolpraca h3:before{
+		content: url(../img/1.png);
+		padding-right: 13px;
+	}
+	section#wspolpraca p{
+		margin-bottom: 140px;
+		font-size: 18px;
+		font-family: Avenir Light;
+		line-height: 1.9;	
+	}
+	section#wspolpraca button{
+		width: 150px;
+		height: 40px;
+		border: 2px solid #fff; 
+		margin-bottom: 40px;
+		font-family: Avenir Light;
+		background:#1D2117 ;
+	}
+	section#wspolpraca img{
+		height: 580px;
+		width: 200px;	
+		position: absolute;
+		top: -200px;
+		right: 12	0px;
+	}
+/*Section Partner */
+	section#partner{
+		background: #353535;
+		color: #fff;
+	}
+	section#partner .row{ 
+		margin-top: 70px;
+		margin-left: 35px;
+		margin-bottom: 80px;
+	}
+	section#partner h3{
+		margin-bottom: 50px;
+		font-family: Avenir Black;
+		line-height: 1.7;
+	}
+	section#partner h3:before{
+		content: url(../img/1.png);
+		padding-right: 13px;
+	}
+	section#partner p{
+		font-size: 18px;
+		font-family: Avenir Light;
+		line-height: 1.9;
+	}
+	section#partner p#agencje{
+		margin-left: 40px;
+		margin-bottom: 75px;
+
+	}
+	section#partner p#reklamodawcy{
+		margin-left: 60px;
+		margin-bottom: 75px;
+	}
+	section#partner p#partnerzy{
+		margin-left: 40px;
+		margin-bottom: 75px;
+		margin-top: 21px;
+	}
+	section#partner img#agencje{
+		width: 140px;
+		height: 100px;	
+	}
+	section#partner img#reklamodawcy{
+		width: 125px;
+		height: 100px;	
+	}
+	section#partner img#partnerzy{
+		width: 130px;
+		height: 80px;	
+	}
+/*Section O nac */
+	section#onac{
+		background: #1D2117;
+		color: #fff;
+		height: 850px;
+	}
+	section#onac .row{ 
+		margin-top: 70px;
+		margin-left: 35px;
+	}
+	section#onac h3{
+		margin-bottom: 50px;
+		font-family: Avenir Black;
+		line-height: 1.7;
+	}
+	section#onac h3:before{
+		content: url(../img/1.png);
+		padding-right: 13px;
+	}
+	section#onac p{
+		
+		font-size: 18px;
+		font-family: Avenir Light;
+		line-height: 1.9;
+	}
+	section#onac .onac{
+		display: block;
+		background: url(../img/o-nas-1280px.png);
+		background-size: 595px 850px;
+		float: right;
+		top: -70px;
+		right: -55px;
+		width: 595px;
+		height: 850px;
+	}
+	section#onac img{
+		visibility: hidden;
+	}	
+/*Section Wragenia*/
+	section#wragenia .row{ 
+		margin-top: 40px;
+		margin-left: 35px;
+		float: left;
+	}
+
+	section#wragenia h3{
+		margin-top:70px;
+		margin-bottom: 50px;
+		font-family: Avenir Black;
+		line-height: 1.7;
+		margin-bottom: 50px;
+	}
+	section#wragenia h3:before{
+		content: url(../img/1.png);
+		padding-right: 13px;
+	}
+	section#wragenia p{
+		font-size: 18px;
+		font-family: Avenir Light;
+		line-height: 1.9;
+	}
+	section#wragenia img{
+		height: 500px;
+		margin-left: -20px;
+	}
+/*Section Partnerzy */
+	section#partnerzy{
+		background: #353535;
+		color: #fff;
+	}
+	section#partnerzy .row{ 
+		margin-top: 110px;
+		margin-left: 35px;
+	}
+	section#partnerzy h3{
+		margin-bottom: 50px;
+		font-family: Avenir Black;
+		line-height: 1.7;
+	}
+	section#partnerzy h3:before{
+		content: url(../img/1.png);
+		padding-right: 13px;
+	}
+	section#partnerzy img#skoda{
+		margin-top: -5px;
+		width: 160px;
+		height: 30px;
+		margin-right: 110px;
+	}
+	section#partnerzy img#zanox{
+		width: 160px;
+		height: 25px;
+		margin-right: 100px;
+	}
+	section#partnerzy img#zalando{
+		width: 160px;
+		height: 25px;
+		margin-right: 100px;
+	}
+	section#partnerzy img#answear{
+		width: 120px;
+		margin-right: 110px;
+	}
+	section#partnerzy p#img br{
+		display: none;
+	}
+	section#partnerzy img#ford{
+		width: 65px;
+		
+	}
+	section#partnerzy p{
+		font-family: Avenir Light;
+		font-size: 18px;
+		text-align: center;
+
+	}
+	section#partnerzy p#skontaktuj{
+		font-family:Avenir Black; 
+		font-size: 40px;
+		padding-top: 130px;
+	}
+	section#partnerzy p#zapraszamy{
+		font-family:Avenir Black;
+		font-size: 27px;
+		padding-bottom: 54px;
+	}
+	section#partnerzy p#skontaktuj, p#zapraszamy{
+		text-align: center;
+
+	}
+	section#partnerzy input{
+		margin-bottom: 15px;
+		width: 505px;
+		height: 47px;
+		font-family: Avenir Light;
+		color: #000;
+		font-size: 18px;
+		padding-left: 10px;
+	}
+	section#partnerzy input::-webkit-input-placeholder 	{
+		color:#000;
+	}
+	section#partnerzyinput::-moz-placeholder{
+		color:#000;
+	}
+	section#partnerzyinput:-moz-placeholder{
+		color:#000;
+	}
+	section#partnerzyinput:-ms-input-placeholder{
+		color:#000;
+	}
+	section#partnerzy textarea{
+		resize: none;
+		height: 200px;
+		width: 505px;
+		color: #000;
+		font-family: Avenir Light;
+		font-size: 18px;
+		padding-left: 10px;
+		padding-top: 5px;
+	}
+	section#partnerzy textarea::-webkit-input-placeholder{
+		color: #000;
+	}
+	section#partnerzy button{
+		margin-top: 25px;
+		float: right;
+		width: 150px;
+		height: 40px;
+		border: 2px solid #fff; 
+		margin-bottom: 40px;
+		font-family: Avenir Light;
+		background:#353535 ;
+		margin-right: 25px;
+	}	
+	section#partnerzy p#grupa{
+		font-family:Avenir Black; 
+		font-size: 40px;
+		margin-top: -80px;
+	}
+	section#partnerzy iframe{
+		margin-bottom: 50px;
+		width: 100%;
+		height:600px;
+		border: 0;
+
+	}
+	section#partnerzy img#na3{
+		width: 255px;
+		margin-left: 155px;
+		margin-bottom: 50px;
+	}
+@font-face {
+font-family: 'Avenir Black';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir Black'), url('../fonts/AvenirLTStd-Black.woff') format('woff');
+}
+@font-face {
+font-family: 'Avenir Medium';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT Std 65 Medium'), url('./fonts/AvenirLTStd-Medium.woff') format('woff');
+}
+@font-face {
+font-family: 'Avenir Light';
+font-style: normal;
+font-weight: normal;
+src: local('Avenir LT 35 Light'), url('../fonts/AvenirLTStd-Light.woff') format('woff');
+}
+
+
+@media(width: 1920px) {
+	header{
+		height: 1000px;
+	}
+	header h2{
+		margin-top: 250px;
+		margin-bottom: 50px;
+	}
+	ul.list{
+		margin-bottom: 190px;
+	}
+	section#partnerzy img#na3{
+		width: 255px;
+		margin-left: 315px;
+		margin-bottom: 50px;
+	}
+	section#onac img{
+		visibility: hidden;
+	}
+}
+@media(width: 992px){
+	.container{
+		width: 95%;
+	}
+
+	header{
+
+		background: url(../img/tlo-992px.png) no-repeat;
+	    background-size: 100%;
+	    padding: 20px 90px 00px 45px;
+	    height: 100%;
+	   
+	}
+	.nav ul li a{
+		text-decoration: none;
+		color: #7B7B7B;
+		font-family: Avenir Medium;
+		font-size: 0.9em;
+		margin: 1px;
+	}
+	.nav ul li{
+		display: inline; 
+	    
+	    color: #7B7B7B; 
+	}
+	header h2{
+		margin-top: 128px;
+		margin-left: -40px;
+		text-align: center;
+		color:#F4C51E;
+		line-height: 1.5;
+		font-size: 1.8em;
+	}
+	h3.list, ul.list{
+		margin-left: -20px;
+	}
+	section#mailing img{
+		margin-left: 20px;
+		top: -1px;
+		position:relative;
+		width: 505px;
+		height: 395px;
+	}
+	section#partnerzy iframe{
+		margin-bottom: 50px;
+		width:992px;
+	}
+	section#onac{
+		
+		height: 800px;
+	}
+	section#onac p{
+		
+		font-size: 18px;
+		font-family: Avenir Light;
+		line-height: 1.7;
+		margin-bottom: 55px;
+	}
+	section#onac p#logo{
+		display: none;
+	}
+	section#onac .onac{
+		background: url(../img/o-nas-992px.png) no-repeat;
+		background-size: 100% 100%;
+		float: right;
+		top: -70px;
+		right: -155px;
+		width: 45%;
+		height: 100%;
+	}
+	section#wragenia img{
+		width: 99%;
+		height: 550px;
+		margin-left: -20px;
+	}
+	section#partnerzy img#skoda{
+		margin-top: -5px;
+		width: 160px;
+		height: 30px;
+		margin-right: 50px;
+	}
+	section#partnerzy p#img br{
+		display: none;
+	}
+
+	section#partnerzy img#zanox{
+		width: 160px;
+		height: 25px;
+		margin-right: 50px;
+	}
+	section#partnerzy img#zalando{
+		width: 160px;
+		height: 25px;
+		margin-right: 50px;
+	}
+	section#partnerzy img#answear{
+		width: 120px;
+		margin-right: 50px;
+	}
+	section#partnerzy input{
+		width:435px;
+	}
+	section#partnerzy textarea{
+		width: 435px;
+	}
+
+	section#partnerzy button{
+		margin-right: 0;
+	}
+	section#partnerzy iframe{
+		width: 100%;
+	}
+	section#program img{
+		margin-top: 125px;
+		height: 440px;
+		width: 300px;
+	}
+
+}
+@media(width: 768px){
+	
+	.container{
+		width: 100%;
+		margin-top: -20px;
+		margin-right:0;
+		padding-right: 35px;
+	}
+	header{
+		background: url(../img/tlo-768px.png) no-repeat;
+		background-size: 100%;
+		padding: 45px;
+		padding-bottom: 0;	
+	}
+	header h2{
+		width: 100%;
+		margin-top: 78px;
+		text-align: center;
+		color:#F4C51E;
+		line-height: 1.5;
+		font-size: 1.8em;
+	}
+	header h2 br{
+		display: none;
+	}
+	.icon-menu{
+		margin-right: 30px;
+	}
+	h3.list{
+		margin-top: 16%;
+
+	}
+	h3.list, ul.list{
+		margin-left: -80px;
+		font-size: 1.6em;
+	}
+	img#logo{
+		visibility: visible;
+	}
+	p#mouse img{
+		margin-top: 7%;
+		visibility: visible;
+	}
+	.nav{
+		position: fixed;
+		top: 0;
+		left: -400px;
+		width: 300px;
+		height: 100%;
+		background: #000;
+		z-index:10; 
+	}
+	.menu-logo{
+		border-bottom: 2px solid #fff;
+		display: block;	
+	}
+	.nav img{
+		visibility: visible;
+		margin-top: 25px;
+		margin-bottom: 20px;
+		margin-left: 70px;
+		width: 110px;
+		height: 20px;
+	}
+	.nav ul{
+		padding: 0;
+		margin: 0;
+	}
+	.nav ul li{
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-right: 0;
+		border-bottom: 2px solid #7B7B7B;	
+		display: block;
+		color: #7B7B7B
+	}
+	.nav ul li:before{
+		margin-left: 15px;
+		margin-top: 5px;
+		font-size: 30px;
+		content: "•" ;
+		margin-right: 12px;
+	} 
+	.nav ul li:hover{
+		color: #fff;
+	} 
+	.nav ul li a{
+		font-size: 18px;
+		color: #7B7B7B
+	}
+	.icon-menu{
+		display: block;
+	}
+	.nav.active{
+		left: 0;	
+	}
+	
+	img{
+		visibility: hidden;
+	}
+	section#partnerzy input{
+		margin-bottom: 15px;
+		width: 100%;
+		height: 47px;
+		font-family: Avenir Light;
+		color: #000;
+		font-size: 18px;
+		padding-left: 10px;
+	}section#partnerzy textarea{
+		resize: none;
+		height: 200px;
+		width:100%;
+		color: #000;
+		font-family: Avenir Light;
+		font-size: 18px;
+		padding-left: 10px;
+		padding-top: 5px;
+	}
+	section#program .col-xs-4.col-xs-offset-1{
+		display: none;
+
+	}
+	section#program .col-xs-7{
+		width: 100%;
+	}
+	section#onac .onac{
+		display: none;
+	}
+	section#mailing .col-xs-4{
+		display: none;
+	}
+	section#mailing .col-xs-7.col-xs-offset-1{
+		margin-left: 0;
+		padding-left: 0;
+		width: 100%;
+	}
+	section#wspolpraca .col-xs-7{
+		width: 100%;
+	}
+	section#wspolpraca .col-xs-4.col-xs-offset-1{
+		display: none;
+	}
+	section#partner p#agencje, section#partner p#reklamodawcy,section#partner p#partnerzy{
+		text-align: center;
+		margin-left: 0;
+	}
+	section#partner img{
+		visibility: visible;
+	}
+	section#partner p br {
+		display: none;
+	}
+	section#partner p {
+		margin-bottom: 60px;
+	}
+	section#onac .col-xs-6{
+		width: 100%;
+	}
+	section#onac p#logo {
+		text-align: center;
+	}
+	section#onac img{
+		margin-top: 100px;
+		visibility: visible;
+		width: 150px;
+	}
+	section#wragenia .col-xs-5{
+		display: none;
+	}
+	section#wragenia .col-xs-7{
+		width: 100%;
+		margin-bottom: 40px;
+	}
+	section#partnerzy img{
+		visibility: visible;
+	}
+	section#partnerzy .row{
+		margin-right: 0px;
+	}
+	section#partnerzy img#skoda,section#partnerzy img#zanox,section#partnerzy img#zalando{
+		margin-right: 50px;
+	}
+	section#partnerzy img#answear,section#partnerzy img#ford{
+		margin-top:50px;
+		margin-right: 10px;
+		margin-left: 120px; 
+	}
+	section#partnerzy button{
+		margin-right: 0;
+	}
+	section#partnerzy img#answear{
+	   margin-left: 141px;
+    	margin-right: 255px;
+	}
+	section#partnerzy img#ford{
+	   margin-left: -142px;
+    	margin-right: 218px;
+    }
+}
+@media(width: 320px){
+
+	header .container{
+		margin-top: -20px;
+		margin-right: -10px;
+		width: 100%;
+	}
+	.container{
+		width: 94%;
+	}
+	.col-xs-9.col-xs-offset-3{
+		padding: 0;
+		margin: 0;	
+		width: 245px;
+	}
+	header{
+		background: url(../img/tlo-320px.png) no-repeat;
+		background-size: 100%;
+	}
+	header h2{
+		font-size: 24px;
+		margin-top: 80px;
+	}
+	img#logo{
+		visibility: visible;
+	}
+	img{
+		visibility: hidden;
+	}
+	.nav{
+		position: fixed;
+		top: 0;
+		left: -400px;
+		width: 200px;
+		height: 100%;
+		background: #000;
+		z-index:10; 
+	}
+	.menu-logo{
+		border-bottom: 2px solid #fff;
+		display: block;	
+	}
+	.nav img{
+		visibility: visible;
+		margin-top: 25px;
+		margin-bottom: 20px;
+		margin-left: 50px;
+		width: 110px;
+		height: 20px;
+	}
+	.nav ul{
+		padding: 0;
+		margin: 0;
+	}
+	.nav ul li{
+		padding-top: 10px;
+		padding-bottom: 10px;
+		margin-right: 0;
+		border-bottom: 2px solid #7B7B7B;	
+		display: block;
+		color: #7B7B7B
+	}
+	.nav ul li:before{
+		margin-left: 15px;
+		margin-top: 5px;
+		font-size: 30px;
+		content: "•" ;
+		margin-right: 12px;
+	} 
+	.nav ul li:hover{
+		color: #fff;
+	} 
+	.nav ul li a{
+		font-size: 18px;
+		color: #7B7B7B
+	}
+	.icon-menu{
+
+		display: block;
+	}
+	.nav.active{
+		left: 0;	
+	}
+	h3.list{
+		margin-top: 55px;
+		padding: 0;
+		font-size: 22px;
+	}
+	ul.list{
+		margin-bottom: 30px;
+		padding-left: 15px;
+		font-size: 22px;
+	}
+	header p{
+		display: none;
+	}
+	section#program .row{ 
+		margin: 0;
+		margin-top: 20px;
+	}
+	section#program .col-xs-7{
+		width: 100%;
+	}
+	section#program .col-xs-4.col-xs-offset-1{
+		display: none;
+	}
+	section#program p br {
+		display: none;
+	}
+	section#program p{
+		margin-bottom: 40px;
+	}
+	section#program button{
+		margin-bottom: 70px;
+	}
+	section#mailing .row{
+		margin: 0;
+		margin-top: 20px;
+	}
+	section#mailing .col-xs-4{
+		display: none;
+	}
+	section#mailing .col-xs-7.col-xs-offset-1{
+		margin: 0;
+
+		width: 100%;
+	}
+	section#mailing p {
+		margin-bottom: 40px;
+	}
+	section#mailing button{
+		margin-bottom: 70px;
+	}
+	section#wspolpraca .row{
+		margin: 0;
+		margin-top: 20px;
+	}
+	section#wspolpraca .col-xs-4.col-xs-offset-1{
+		display: none;
+	}
+	section#wspolpraca .col-xs-7{
+		margin: 0;
+		width: 100%;
+	}
+	section#wspolpraca p {
+		margin-bottom: 40px;
+	}
+	section#wspolpraca button{
+		margin-bottom: 70px;
+	}
+	section#partner .row{
+		margin: 0;
+		margin-top: 20px;
+	}
+	section#partner img{
+		visibility: visible;
+	}
+	section#partner p#agencje, section#partner p#reklamodawcy,section#partner p#partnerzy{
+		margin: 0;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		text-align: center;
+	}
+	section#partner p#agencjep br:not(:first-child) {
+		display: none;
+	}
+	section#partner p br{
+		display: none;
+	}
+	section#partner p#partnerzyp{
+		margin-bottom: 60px;
+	}
+	section#onac .onac{
+		display: none;
+	}
+	section#onac .row{
+		margin: 0;
+		margin-top: 50px;
+	}
+	section#onac .col-xs-6{
+		width: 100%;
+	}
+	section#onac {
+		height: 100%;
+	}
+	section#onac img {
+		visibility: visible;
+		width: 150px;
+	}
+	section#onac p#logo{
+		margin-top: 50px;
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	section#wragenia .col-xs-5{
+		display: none;
+	}
+	section#wragenia .row{
+		margin: 0;
+		margin-top: 50px;
+	}
+	section#wragenia .col-xs-7{
+		width: 100%;
+		margin-top: 0;
+	}
+	section#wragenia h3{
+		margin: 0;
+		margin-bottom: 40px;
+	}
+	section#wragenia p br{
+		display: none;
+	}
+	section#wragenia p{
+		margin-bottom: 50px;
+	}
+	section#partnerzy .row{
+		margin: 0;
+		margin-top: 50px;
+	}
+	section#partnerzy p#img img {
+		visibility: visible;
+		margin: 0;
+		margin-bottom: 50px;
+	}
+	section#partnerzy p#img{
+		text-align: center;
+	}
+	section#partnerzy p#img br{
+		display: block;
+	}
+	section#partnerzy p#skontaktuj {
+		padding:0;
+	}
+	section#partnerzy p#skontaktuj{
+		margin-top: 0;
+	}
+	section#partnerzy .col-xs-6{
+		clear: left;
+		width: 100%;
+	}
+	section#partnerzy input{
+		width: 100%;
+	}
+	section#partnerzy textarea{
+		width: 100%;
+	}
+	section#partnerzy button{
+		margin-right: 0;
+		margin-bottom: 0;
+	}
+	section#partnerzy p#grupa{
+		margin-top: 0;
+	}
+	section#partnerzy iframe{
+		height: 400px;
+		margin-bottom: 30px;
+	}
+	section#partnerzy img#na3{
+		visibility: visible;
+		margin-left: 30px;
+	}
+}
