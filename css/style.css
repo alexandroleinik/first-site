@@ -6,7 +6,8 @@
 	    -moz-background-size: 100%; /* Firefox 3.6+ */
 	    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
 	    -o-background-size: 100%; /* Opera 9.6+ */
-	    background-size: 100%; /* Современные браузеры */
+		background-size: cover;
+		background-position: center; /* Современные браузеры */
 	    padding: 20px 90px 00px 45px;
 	    height: 100%;
 	   
@@ -266,7 +267,7 @@
 	section#onac{
 		background: #1D2117;
 		color: #fff;
-		height: 850px;
+		height: 100%;
 	}
 	section#onac .row{ 
 		margin-top: 70px;
@@ -494,7 +495,7 @@ src: local('Avenir LT 35 Light'), url('../fonts/AvenirLTStd-Light.woff') format(
 		visibility: hidden;
 	}
 }
-@media(width: 992px){
+@media(max-width: 992px){
 	.container{
 		width: 95%;
 	}
@@ -502,7 +503,7 @@ src: local('Avenir LT 35 Light'), url('../fonts/AvenirLTStd-Light.woff') format(
 	header{
 
 		background: url(../img/tlo-992px.png) no-repeat;
-	    background-size: 100%;
+	    background-size: cover;
 	    padding: 20px 90px 00px 45px;
 	    height: 100%;
 	   
@@ -606,14 +607,14 @@ src: local('Avenir LT 35 Light'), url('../fonts/AvenirLTStd-Light.woff') format(
 	section#partnerzy iframe{
 		width: 100%;
 	}
-	section#program img{
+	section#program img{margin: 0;
 		margin-top: 125px;
 		height: 440px;
 		width: 300px;
 	}
 
 }
-@media(width: 768px){
+@media(max-width: 768px){
 	
 	.container{
 		width: 100%;
@@ -623,7 +624,7 @@ src: local('Avenir LT 35 Light'), url('../fonts/AvenirLTStd-Light.woff') format(
 	}
 	header{
 		background: url(../img/tlo-768px.png) no-repeat;
-		background-size: 100%;
+		background-size: cover%;
 		padding: 45px;
 		padding-bottom: 0;	
 	}
@@ -739,14 +740,13 @@ src: local('Avenir LT 35 Light'), url('../fonts/AvenirLTStd-Light.woff') format(
 		width: 100%;
 	}
 	section#onac .onac{
+		
 		display: none;
 	}
 	section#mailing .col-xs-4{
 		display: none;
 	}
 	section#mailing .col-xs-7.col-xs-offset-1{
-		margin-left: 0;
-		padding-left: 0;
 		width: 100%;
 	}
 	section#wspolpraca .col-xs-7{
@@ -812,24 +812,17 @@ src: local('Avenir LT 35 Light'), url('../fonts/AvenirLTStd-Light.woff') format(
     	margin-right: 218px;
     }
 }
-@media(width: 320px){
+@media(max-width: 320px){
 
 	header .container{
-		margin-top: -20px;
-		margin-right: -10px;
-		width: 100%;
+		
 	}
 	.container{
-		width: 94%;
+		width: 100%;
 	}
-	.col-xs-9.col-xs-offset-3{
-		padding: 0;
-		margin: 0;	
-		width: 245px;
-	}
+	
 	header{
 		background: url(../img/tlo-320px.png) no-repeat;
-		background-size: 100%;
 	}
 	header h2{
 		font-size: 24px;
@@ -894,6 +887,9 @@ src: local('Avenir LT 35 Light'), url('../fonts/AvenirLTStd-Light.woff') format(
 	}
 	.nav.active{
 		left: 0;	
+	}
+	header h2{
+		width: 100%;
 	}
 	h3.list{
 		margin-top: 55px;
